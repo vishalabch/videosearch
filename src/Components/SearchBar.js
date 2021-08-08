@@ -12,7 +12,7 @@ export default class SearchBar extends Component {
         return (
             <div className="Search-Bar ui segment">
                 <form className="ui form" onSubmit={this.onFormSubmit}>
-                     <label>Enter search word</label>
+                     <label>Enter search word git</label>
                     <input type="text" 
                     value={this.state.term}
                     onChange={(e)=>{this.setState({term:e.target.value})}}></input>
